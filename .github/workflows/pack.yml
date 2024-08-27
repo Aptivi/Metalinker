@@ -1,0 +1,31 @@
+name: NuGet Gallery Push
+
+on:
+  release:
+    types: [published]
+    
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+          ref: ${{ github.ref }}
+      - name: Notify build
+        uses: tsickert/discord-webhook@v6.0.0
+        with:
+          webhook-url: ${{ secrets.WEBHOOK_URL }}
+          content: "<:chemistar:1275056185938153536> ${{ github.event.release.name }} <:chemistar:1275056185938153536>\n\n${{ github.event.release.body }}"
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Solution Compilation
+        run: make
+      - name: Package Publication
+        run: |
+          chmod +x tools/*.sh
+          cd tools ; NUGET_APIKEY=${{ secrets.NUGET_APIKEY }} ./push.sh ; cd ..
