@@ -92,7 +92,7 @@ namespace Metalinker
                 // They are valid, but we need to figure out what we actually have as the version to avoid
                 // mismatch in case of extension mismatch.
                 MetalinkVersion version = MetalinkVersion.Unknown;
-                if (maybe3 && metalinkElement.Attributes["version"].InnerText != "3.0")
+                if (maybe3 && metalinkElement.Attributes["version"].InnerText == "3.0")
                     version = MetalinkVersion.Three;
                 else if (maybe4 && metalinkElement.Attributes["xmlns"].InnerText.Contains("metalink"))
                     version = MetalinkVersion.Four;

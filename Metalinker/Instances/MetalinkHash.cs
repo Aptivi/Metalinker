@@ -20,16 +20,11 @@
 namespace Metalinker.Instances
 {
     /// <summary>
-    /// Metalink instance
+    /// Metalink file hash instance
     /// </summary>
-	public class Metalink
-	{
-        public string Generator { get; internal set; }
-        public string Origin { get; internal set; }
-        public bool Dynamic { get; internal set; }
-        public string PublishDate { get; internal set; }
-        public string Publisher { get; internal set; }
-        public string PublisherUrl { get; internal set; }
-        public MetalinkFile[] Files { get; internal set; }
+	public class MetalinkHash
+    {
+        public string HashSumType { get; internal set; }
+        public string HashSum { get; internal set; }
     }
 }
