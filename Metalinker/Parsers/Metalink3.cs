@@ -54,7 +54,7 @@ namespace Metalinker.Parsers
             {
                 var file = new MetalinkFile
                 {
-                    // Get the file name
+                    Size = long.Parse(fileElement["size"]?.InnerText),
                     File = fileElement.Attributes["name"]?.InnerText ?? ""
                 };
 
