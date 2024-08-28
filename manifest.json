@@ -1,0 +1,158 @@
+{
+  "sitemap": {
+    "baseUrl": "https://aptivi.github.io/Metalinker/"
+  },
+  "source_base_path": "/home/runner/work/Metalinker/Metalinker/DocGen",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.Instances.Metalink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.Instances.Metalink.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.Instances.MetalinkFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.Instances.MetalinkFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.Instances.MetalinkHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.Instances.MetalinkHash.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.Instances.MetalinkPieceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.Instances.MetalinkPieceInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.Instances.MetalinkResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.Instances.MetalinkResource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.Instances.MetalinkSignature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.Instances.MetalinkSignature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.Instances.MetalinkVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.Instances.MetalinkVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.Instances.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.Instances.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.MetalinkParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.MetalinkParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Metalinker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Metalinker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

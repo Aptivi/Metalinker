@@ -1,0 +1,57 @@
+{
+  "api/Metalinker.Instances.Metalink.html": {
+    "href": "api/Metalinker.Instances.Metalink.html",
+    "title": "Class Metalink | Metalinker API - Aptivi",
+    "keywords": "Class Metalink Metalink instance Inheritance object Metalink Namespace: Metalinker.Instances Assembly: Metalinker.dll Syntax public class Metalink Properties | Edit this page View Source Dynamic Declaration public bool Dynamic { get; } Property Value Type Description bool | Edit this page View Source Files Declaration public MetalinkFile[] Files { get; } Property Value Type Description MetalinkFile[] | Edit this page View Source Generator Declaration public string Generator { get; } Property Value Type Description string | Edit this page View Source Origin Declaration public string Origin { get; } Property Value Type Description string | Edit this page View Source PublishDate Declaration public string PublishDate { get; } Property Value Type Description string | Edit this page View Source Publisher Declaration public string Publisher { get; } Property Value Type Description string | Edit this page View Source PublisherUrl Declaration public string PublisherUrl { get; } Property Value Type Description string"
+  },
+  "api/Metalinker.Instances.MetalinkFile.html": {
+    "href": "api/Metalinker.Instances.MetalinkFile.html",
+    "title": "Class MetalinkFile | Metalinker API - Aptivi",
+    "keywords": "Class MetalinkFile Metalink file instance Inheritance object MetalinkFile Namespace: Metalinker.Instances Assembly: Metalinker.dll Syntax public class MetalinkFile Properties | Edit this page View Source File Declaration public string File { get; } Property Value Type Description string | Edit this page View Source Hashes Declaration public MetalinkHash[] Hashes { get; } Property Value Type Description MetalinkHash[] | Edit this page View Source PieceInfo Declaration public MetalinkPieceInfo PieceInfo { get; } Property Value Type Description MetalinkPieceInfo | Edit this page View Source Resources Declaration public MetalinkResource[] Resources { get; } Property Value Type Description MetalinkResource[] | Edit this page View Source Signatures Declaration public MetalinkSignature[] Signatures { get; } Property Value Type Description MetalinkSignature[] | Edit this page View Source Size Declaration public long Size { get; } Property Value Type Description long"
+  },
+  "api/Metalinker.Instances.MetalinkHash.html": {
+    "href": "api/Metalinker.Instances.MetalinkHash.html",
+    "title": "Class MetalinkHash | Metalinker API - Aptivi",
+    "keywords": "Class MetalinkHash Metalink file hash instance Inheritance object MetalinkHash Namespace: Metalinker.Instances Assembly: Metalinker.dll Syntax public class MetalinkHash Properties | Edit this page View Source HashSum Declaration public string HashSum { get; } Property Value Type Description string | Edit this page View Source HashSumType Declaration public string HashSumType { get; } Property Value Type Description string"
+  },
+  "api/Metalinker.Instances.MetalinkPieceInfo.html": {
+    "href": "api/Metalinker.Instances.MetalinkPieceInfo.html",
+    "title": "Class MetalinkPieceInfo | Metalinker API - Aptivi",
+    "keywords": "Class MetalinkPieceInfo Metalink file instance Inheritance object MetalinkPieceInfo Namespace: Metalinker.Instances Assembly: Metalinker.dll Syntax public class MetalinkPieceInfo Properties | Edit this page View Source Hashes Declaration public string[] Hashes { get; } Property Value Type Description string[] | Edit this page View Source Length Declaration public long Length { get; } Property Value Type Description long | Edit this page View Source Type Declaration public string Type { get; } Property Value Type Description string"
+  },
+  "api/Metalinker.Instances.MetalinkResource.html": {
+    "href": "api/Metalinker.Instances.MetalinkResource.html",
+    "title": "Class MetalinkResource | Metalinker API - Aptivi",
+    "keywords": "Class MetalinkResource Metalink file instance Inheritance object MetalinkResource Namespace: Metalinker.Instances Assembly: Metalinker.dll Syntax public class MetalinkResource Properties | Edit this page View Source Location Declaration public string Location { get; } Property Value Type Description string | Edit this page View Source Preference Declaration public int Preference { get; } Property Value Type Description int | Edit this page View Source Type Declaration public string Type { get; } Property Value Type Description string | Edit this page View Source URL Declaration public string URL { get; } Property Value Type Description string"
+  },
+  "api/Metalinker.Instances.MetalinkSignature.html": {
+    "href": "api/Metalinker.Instances.MetalinkSignature.html",
+    "title": "Class MetalinkSignature | Metalinker API - Aptivi",
+    "keywords": "Class MetalinkSignature Metalink file signature instance Inheritance object MetalinkSignature Namespace: Metalinker.Instances Assembly: Metalinker.dll Syntax public class MetalinkSignature Properties | Edit this page View Source SignatureContent Declaration public string SignatureContent { get; } Property Value Type Description string | Edit this page View Source SignatureFile Declaration public string SignatureFile { get; } Property Value Type Description string | Edit this page View Source SignatureType Declaration public string SignatureType { get; } Property Value Type Description string"
+  },
+  "api/Metalinker.Instances.MetalinkVersion.html": {
+    "href": "api/Metalinker.Instances.MetalinkVersion.html",
+    "title": "Enum MetalinkVersion | Metalinker API - Aptivi",
+    "keywords": "Enum MetalinkVersion Metalink version enumeration Namespace: Metalinker.Instances Assembly: Metalinker.dll Syntax public enum MetalinkVersion Fields Name Description Four Metalink version 4.0 Three Metalink version 3.0 Unknown Unknown Metalink version"
+  },
+  "api/Metalinker.Instances.html": {
+    "href": "api/Metalinker.Instances.html",
+    "title": "Namespace Metalinker.Instances | Metalinker API - Aptivi",
+    "keywords": "Namespace Metalinker.Instances Classes Metalink Metalink instance MetalinkFile Metalink file instance MetalinkHash Metalink file hash instance MetalinkPieceInfo Metalink file instance MetalinkResource Metalink file instance MetalinkSignature Metalink file signature instance Enums MetalinkVersion Metalink version enumeration"
+  },
+  "api/Metalinker.MetalinkParser.html": {
+    "href": "api/Metalinker.MetalinkParser.html",
+    "title": "Class MetalinkParser | Metalinker API - Aptivi",
+    "keywords": "Class MetalinkParser Metalink 3.0 and 4.0 parsing tools Inheritance object MetalinkParser Namespace: Metalinker Assembly: Metalinker.dll Syntax public static class MetalinkParser Methods | Edit this page View Source GetMetalinkFromPath(string) Declaration public static Metalink? GetMetalinkFromPath(string file) Parameters Type Name Description string file Returns Type Description Metalink | Edit this page View Source GetMetalinkFromStream(Stream) Declaration public static Metalink? GetMetalinkFromStream(Stream stream) Parameters Type Name Description Stream stream Returns Type Description Metalink | Edit this page View Source GetMetalinkFromXml(string) Declaration public static Metalink? GetMetalinkFromXml(string metalink) Parameters Type Name Description string metalink Returns Type Description Metalink | Edit this page View Source GetMetalinkFromXmlDocument(XmlDocument) Declaration public static Metalink? GetMetalinkFromXmlDocument(XmlDocument metalinkDocument) Parameters Type Name Description XmlDocument metalinkDocument Returns Type Description Metalink"
+  },
+  "api/Metalinker.html": {
+    "href": "api/Metalinker.html",
+    "title": "Namespace Metalinker | Metalinker API - Aptivi",
+    "keywords": "Namespace Metalinker Classes MetalinkParser Metalink 3.0 and 4.0 parsing tools"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| Metalinker API - Aptivi",
+    "keywords": "What is Metalinker? Metalinker is a library that allows you to interact with Metalink 3.0 and 4.0 files for your download manager. What is this web page? This webpage is an API documentation for mod developers to be used as reference. It constantly gets updated as we push the updates to the main and servicing versions of this project. If you still intend to use a documentation specific to your preferred version of Metalinker, you may refer to the releases page of the project and download the attached <version>-doc.rar file. To get started using the documentation, select API Documentation from the top menu and select a namespace to get a clear overview of the API. Feedback If you wish to leave feedback to us about this API reference website, use the issue tracker of the project. If you wish to contribute to the documentation of the API, go to the project source code and make your improvements there on a draft Pull Request; we don't support override files that are made by clicking on Improve this doc. Any meaningful contributions are welcome. Copyright (c) 2024 Aptivi. All rights reserved."
+  }
+}
