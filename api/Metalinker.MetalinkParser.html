@@ -102,11 +102,12 @@
     <a href="https://github.com/Aptivi/Metalinker/new/main/apiSpec/new?filename=Metalinker_MetalinkParser_GetMetalinkFromPath_System_String_.md&amp;value=---%0Auid%3A%20Metalinker.MetalinkParser.GetMetalinkFromPath(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Metalinker/blob/main/Metalinker/MetalinkParser.cs/#L33">View Source</a>
+    <a href="https://github.com/Aptivi/Metalinker/blob/main/Metalinker/MetalinkParser.cs/#L40">View Source</a>
   </span>
   <a id="Metalinker_MetalinkParser_GetMetalinkFromPath_" data-uid="Metalinker.MetalinkParser.GetMetalinkFromPath*"></a>
   <h4 id="Metalinker_MetalinkParser_GetMetalinkFromPath_System_String_" data-uid="Metalinker.MetalinkParser.GetMetalinkFromPath(System.String)">GetMetalinkFromPath(string)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a metalink instance from a metadata file</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -125,7 +126,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">file</span></td>
-        <td></td>
+        <td><p>Path to the metalink file</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -140,6 +142,26 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Metalinker.Instances.Metalink.html">Metalink</a></td>
+        <td><p>Metalink instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception">FileNotFoundException</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -149,11 +171,12 @@
     <a href="https://github.com/Aptivi/Metalinker/new/main/apiSpec/new?filename=Metalinker_MetalinkParser_GetMetalinkFromStream_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Metalinker.MetalinkParser.GetMetalinkFromStream(System.IO.Stream)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Metalinker/blob/main/Metalinker/MetalinkParser.cs/#L50">View Source</a>
+    <a href="https://github.com/Aptivi/Metalinker/blob/main/Metalinker/MetalinkParser.cs/#L63">View Source</a>
   </span>
   <a id="Metalinker_MetalinkParser_GetMetalinkFromStream_" data-uid="Metalinker.MetalinkParser.GetMetalinkFromStream*"></a>
   <h4 id="Metalinker_MetalinkParser_GetMetalinkFromStream_System_IO_Stream_" data-uid="Metalinker.MetalinkParser.GetMetalinkFromStream(System.IO.Stream)">GetMetalinkFromStream(Stream)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a metalink instance from a stream</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -172,7 +195,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
         <td><span class="parametername">stream</span></td>
-        <td></td>
+        <td><p>Stream containing metalink XML data</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -187,6 +211,22 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Metalinker.Instances.Metalink.html">Metalink</a></td>
+        <td><p>Metalink instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -196,11 +236,12 @@
     <a href="https://github.com/Aptivi/Metalinker/new/main/apiSpec/new?filename=Metalinker_MetalinkParser_GetMetalinkFromXml_System_String_.md&amp;value=---%0Auid%3A%20Metalinker.MetalinkParser.GetMetalinkFromXml(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Metalinker/blob/main/Metalinker/MetalinkParser.cs/#L62">View Source</a>
+    <a href="https://github.com/Aptivi/Metalinker/blob/main/Metalinker/MetalinkParser.cs/#L81">View Source</a>
   </span>
   <a id="Metalinker_MetalinkParser_GetMetalinkFromXml_" data-uid="Metalinker.MetalinkParser.GetMetalinkFromXml*"></a>
   <h4 id="Metalinker_MetalinkParser_GetMetalinkFromXml_System_String_" data-uid="Metalinker.MetalinkParser.GetMetalinkFromXml(System.String)">GetMetalinkFromXml(string)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a metalink instance from a string</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -219,7 +260,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">metalink</span></td>
-        <td></td>
+        <td><p>String containing metalink XML data</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -234,6 +276,22 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Metalinker.Instances.Metalink.html">Metalink</a></td>
+        <td><p>Metalink instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -243,11 +301,12 @@
     <a href="https://github.com/Aptivi/Metalinker/new/main/apiSpec/new?filename=Metalinker_MetalinkParser_GetMetalinkFromXmlDocument_System_Xml_XmlDocument_.md&amp;value=---%0Auid%3A%20Metalinker.MetalinkParser.GetMetalinkFromXmlDocument(System.Xml.XmlDocument)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Metalinker/blob/main/Metalinker/MetalinkParser.cs/#L74">View Source</a>
+    <a href="https://github.com/Aptivi/Metalinker/blob/main/Metalinker/MetalinkParser.cs/#L101">View Source</a>
   </span>
   <a id="Metalinker_MetalinkParser_GetMetalinkFromXmlDocument_" data-uid="Metalinker.MetalinkParser.GetMetalinkFromXmlDocument*"></a>
   <h4 id="Metalinker_MetalinkParser_GetMetalinkFromXmlDocument_System_Xml_XmlDocument_" data-uid="Metalinker.MetalinkParser.GetMetalinkFromXmlDocument(System.Xml.XmlDocument)">GetMetalinkFromXmlDocument(XmlDocument)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a metalink instance from an XML document</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -266,7 +325,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmldocument">XmlDocument</a></td>
         <td><span class="parametername">metalinkDocument</span></td>
-        <td></td>
+        <td><p>XML document containing metalink XML data</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -281,6 +341,30 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Metalinker.Instances.Metalink.html">Metalink</a></td>
+        <td><p>Metalink instance</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.invaliddataexception">InvalidDataException</a></td>
         <td></td>
       </tr>
     </tbody>
