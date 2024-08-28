@@ -24,8 +24,17 @@ namespace Metalinker.Instances
     /// </summary>
 	public class MetalinkSignature
     {
-        public string SignatureType { get; internal set; }
-        public string SignatureFile { get; internal set; }
-        public string SignatureContent { get; internal set; }
+        /// <summary>
+        /// Signature type
+        /// </summary>
+        public string? SignatureType { get; internal set; }
+        /// <summary>
+        /// Signature file name
+        /// </summary>
+        public string? SignatureFile { get; internal set; }
+        /// <summary>
+        /// Signature content
+        /// </summary>
+        public string? SignatureContent { get; internal set; }
     }
 }

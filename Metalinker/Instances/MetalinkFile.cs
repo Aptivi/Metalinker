@@ -24,11 +24,29 @@ namespace Metalinker.Instances
     /// </summary>
 	public class MetalinkFile
 	{
-        public string File { get; internal set; }
+        /// <summary>
+        /// File name
+        /// </summary>
+        public string? File { get; internal set; }
+        /// <summary>
+        /// File size in bytes
+        /// </summary>
         public long Size { get; internal set; }
-        public MetalinkSignature[] Signatures { get; internal set; }
-        public MetalinkHash[] Hashes { get; internal set; }
-        public MetalinkPieceInfo PieceInfo { get; internal set; }
-        public MetalinkResource[] Resources { get; internal set; }
+        /// <summary>
+        /// List of signatures
+        /// </summary>
+        public MetalinkSignature[]? Signatures { get; internal set; }
+        /// <summary>
+        /// List of hashes
+        /// </summary>
+        public MetalinkHash[]? Hashes { get; internal set; }
+        /// <summary>
+        /// Metalink piece information for chunk verification
+        /// </summary>
+        public MetalinkPieceInfo? PieceInfo { get; internal set; }
+        /// <summary>
+        /// List of resources
+        /// </summary>
+        public MetalinkResource[]? Resources { get; internal set; }
     }
 }

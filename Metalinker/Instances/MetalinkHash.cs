@@ -24,7 +24,13 @@ namespace Metalinker.Instances
     /// </summary>
 	public class MetalinkHash
     {
-        public string HashSumType { get; internal set; }
-        public string HashSum { get; internal set; }
+        /// <summary>
+        /// Hash sum type
+        /// </summary>
+        public string? HashSumType { get; internal set; }
+        /// <summary>
+        /// Hash sum of the whole file
+        /// </summary>
+        public string? HashSum { get; internal set; }
     }
 }

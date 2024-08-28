@@ -24,8 +24,17 @@ namespace Metalinker.Instances
     /// </summary>
 	public class MetalinkPieceInfo
 	{
-        public string Type { get; internal set; }
+        /// <summary>
+        /// Piece hash type
+        /// </summary>
+        public string? Type { get; internal set; }
+        /// <summary>
+        /// Piece hash length
+        /// </summary>
         public long Length { get; internal set; }
-        public string[] Hashes { get; internal set; }
+        /// <summary>
+        /// List of hashes from the start (0th byte) to the end (length of the file)
+        /// </summary>
+        public string[] Hashes { get; internal set; } = [];
     }
 }

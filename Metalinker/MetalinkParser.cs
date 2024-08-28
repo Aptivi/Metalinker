@@ -30,6 +30,13 @@ namespace Metalinker
     /// </summary>
     public static class MetalinkParser
     {
+        /// <summary>
+        /// Gets a metalink instance from a metadata file
+        /// </summary>
+        /// <param name="file">Path to the metalink file</param>
+        /// <returns>Metalink instance</returns>
+        /// <exception cref="FileNotFoundException"></exception>
+        /// <exception cref="ArgumentException"></exception>
         public static Metalink? GetMetalinkFromPath(string file)
         {
             // Sanity checks
@@ -47,6 +54,12 @@ namespace Metalinker
             return GetMetalinkFromXmlDocument(document);
         }
 
+        /// <summary>
+        /// Gets a metalink instance from a stream
+        /// </summary>
+        /// <param name="stream">Stream containing metalink XML data</param>
+        /// <returns>Metalink instance</returns>
+        /// <exception cref="ArgumentNullException"></exception>
         public static Metalink? GetMetalinkFromStream(Stream stream)
         {
             // Sanity checks
@@ -59,6 +72,12 @@ namespace Metalinker
             return GetMetalinkFromXmlDocument(document);
         }
 
+        /// <summary>
+        /// Gets a metalink instance from a string
+        /// </summary>
+        /// <param name="metalink">String containing metalink XML data</param>
+        /// <returns>Metalink instance</returns>
+        /// <exception cref="ArgumentNullException"></exception>
         public static Metalink? GetMetalinkFromXml(string metalink)
         {
             // Sanity checks
@@ -71,6 +90,14 @@ namespace Metalinker
             return GetMetalinkFromXmlDocument(document);
         }
 
+        /// <summary>
+        /// Gets a metalink instance from an XML document
+        /// </summary>
+        /// <param name="metalinkDocument">XML document containing metalink XML data</param>
+        /// <returns>Metalink instance</returns>
+        /// <exception cref="ArgumentNullException"></exception>
+        /// <exception cref="ArgumentException"></exception>
+        /// <exception cref="InvalidDataException"></exception>
         public static Metalink? GetMetalinkFromXmlDocument(XmlDocument metalinkDocument)
         {
             // Sanity checks
@@ -91,7 +118,7 @@ namespace Metalinker
             {
                 // They are valid, but we need to figure out what we actually have as the version to avoid
                 // mismatch in case of extension mismatch.
-                MetalinkVersion version = MetalinkVersion.Unknown;
+                MetalinkVersion version;
                 if (maybe3 && metalinkElement.Attributes["version"].InnerText == "3.0")
                     version = MetalinkVersion.Three;
                 else if (maybe4 && metalinkElement.Attributes["xmlns"].InnerText.Contains("metalink"))

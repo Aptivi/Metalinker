@@ -81,7 +81,7 @@ namespace Metalinker.Tests
             var signatures = file.Signatures;
             signatures[0].SignatureFile.ShouldBe("slackware64-15.0-install-dvd.iso.asc");
             signatures[0].SignatureType.ShouldBe("pgp");
-            signatures[0].SignatureContent.ShouldContain("-----BEGIN PGP SIGNATURE-----");
+            signatures[0].SignatureContent?.ShouldContain("-----BEGIN PGP SIGNATURE-----");
 
             // Verify piece information
             var pieceInfo = file.PieceInfo;
@@ -147,7 +147,7 @@ namespace Metalinker.Tests
             var signatures = file.Signatures;
             signatures[0].SignatureFile.ShouldBe("slackware64-15.0-install-dvd.iso.asc");
             signatures[0].SignatureType.ShouldBe("application/pgp-signature");
-            signatures[0].SignatureContent.ShouldContain("-----BEGIN PGP SIGNATURE-----");
+            signatures[0].SignatureContent?.ShouldContain("-----BEGIN PGP SIGNATURE-----");
 
             // Verify piece information
             var pieceInfo = file.PieceInfo;

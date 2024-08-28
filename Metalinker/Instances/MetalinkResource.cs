@@ -24,9 +24,21 @@ namespace Metalinker.Instances
     /// </summary>
 	public class MetalinkResource
 	{
-        public string URL { get; internal set; }
-        public string Type { get; internal set; }
-        public string Location { get; internal set; }
+        /// <summary>
+        /// URL to the resource
+        /// </summary>
+        public string? URL { get; internal set; }
+        /// <summary>
+        /// Resource schema type (http, https, ftp, ...)
+        /// </summary>
+        public string? Type { get; internal set; }
+        /// <summary>
+        /// Country of the resource
+        /// </summary>
+        public string? Location { get; internal set; }
+        /// <summary>
+        /// Preference order
+        /// </summary>
         public int Preference { get; internal set; }
     }
 }

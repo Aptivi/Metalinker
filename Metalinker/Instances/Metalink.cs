@@ -24,12 +24,33 @@ namespace Metalinker.Instances
     /// </summary>
 	public class Metalink
 	{
-        public string Generator { get; internal set; }
-        public string Origin { get; internal set; }
+        /// <summary>
+        /// Name of the software that generated this metadata
+        /// </summary>
+        public string? Generator { get; internal set; }
+        /// <summary>
+        /// Path to the original path that provided this metadata
+        /// </summary>
+        public string? Origin { get; internal set; }
+        /// <summary>
+        /// Whether this metadata is dynamically generated from the <see cref="Origin">origin</see> or not
+        /// </summary>
         public bool Dynamic { get; internal set; }
-        public string PublishDate { get; internal set; }
-        public string Publisher { get; internal set; }
-        public string PublisherUrl { get; internal set; }
-        public MetalinkFile[] Files { get; internal set; }
+        /// <summary>
+        /// Date when this metadata is published
+        /// </summary>
+        public string? PublishDate { get; internal set; }
+        /// <summary>
+        /// Name of the publisher
+        /// </summary>
+        public string? Publisher { get; internal set; }
+        /// <summary>
+        /// Link to the publisher's website
+        /// </summary>
+        public string? PublisherUrl { get; internal set; }
+        /// <summary>
+        /// List of files
+        /// </summary>
+        public MetalinkFile[]? Files { get; internal set; }
     }
 }
