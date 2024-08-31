@@ -20,7 +20,7 @@
 <br>
 
 [![Badge Main]][Main]   
-[![Badge Main Linux]][Main Linux]
+[![Badge Main Release]][Main Release]
 
 [![Badge Latest]][Latest]   
 [![Badge NuGet]][NuGet]
@@ -43,8 +43,8 @@
 [Latest]: https://github.com/Aptivi/Metalinker/releases/latest
 [NuGet]: https://www.nuget.org/packages/Metalinker/
 
-[Main]: https://github.com/Aptivi/Metalinker/actions/workflows/build-win.yml
-[Main Linux]: https://github.com/Aptivi/Metalinker/actions/workflows/build-linux.yml
+[Main]: https://github.com/Aptivi/Metalinker/actions/workflows/build.yml
+[Main Release]: https://github.com/Aptivi/Metalinker/actions/workflows/build-rel.yml
 
 [Manual]: https://aptivi.gitbook.io/metalinker-manual/
 
@@ -55,8 +55,8 @@
 [Badge NuGet]: https://img.shields.io/nuget/vpre/Metalinker?color=012f52&style=for-the-badge&logoColor=white&logo=NuGet&labelColor=004880
 [Badge Size]: https://img.shields.io/github/repo-size/Aptivi/Metalinker?color=bb4a28&label=size&logoColor=white&style=for-the-badge&logo=GoogleAnalytics&labelColor=E85C33
 
-[Badge Main]: https://github.com/Aptivi/Metalinker/actions/workflows/build-win.yml/badge.svg
-[Badge Main Linux]: https://github.com/Aptivi/Metalinker/actions/workflows/build-linux.yml/badge.svg
+[Badge Main]: https://github.com/Aptivi/Metalinker/actions/workflows/build.yml/badge.svg
+[Badge Main Release]: https://github.com/Aptivi/Metalinker/actions/workflows/build-rel.yml/badge.svg
 
 
 <!---------------------------------[ Buttons ]--------------------------------->
