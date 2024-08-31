@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.Instances.Metalink.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.Instances.MetalinkFile.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.Instances.MetalinkHash.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.Instances.MetalinkPieceInfo.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.Instances.MetalinkResource.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.Instances.MetalinkSignature.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.Instances.MetalinkVersion.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.Instances.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.MetalinkParser.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/api/Metalinker.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/Metalinker/index.html</loc>
-    <lastmod>2024-08-30T03:28:52+00:00</lastmod>
+    <lastmod>2024-08-31T01:03:44+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
