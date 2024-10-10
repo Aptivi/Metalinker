@@ -1,4 +1,12 @@
-We've made this convenience library independent of Nettify to provide you with the Metalink 3.0 and 4.0 parser.
+We've made this release to fix a small bug.
+
+### Changes
+
+This release contains a variety of changes, including, but not limited to:
+
+- `[*]` Updated NuGet description
+
+Review the commit history if you want to get a deep insight about the changes.
 
 ### Feedback?
 
