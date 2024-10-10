@@ -6,7 +6,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <Description>A periodic table parser that allows you to get details of a chemical substance.</Description>
+    <Description>A C# library that parses Metalink version 3.0 and 4.0 files for download manager applications written in .NET</Description>
     <PackageProjectUrl>https://github.com/Aptivi/Metalinker</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Aptivi/Metalinker</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
