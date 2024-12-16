@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Metalinker\Metalinker.csproj" />
+    <ProjectReference Include="..\..\public\Metalinker\Metalinker.csproj" />
   </ItemGroup>
 
   <ItemGroup>

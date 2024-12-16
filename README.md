@@ -5,7 +5,7 @@
 <br>
     
 <img
-  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Metalinker@main/Metalinker/OfficialAppIcon-Metalinker-512.png'
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Metalinker@main/assets/OfficialAppIcon-Metalinker-512.png'
   width = 256
   align = center
 />

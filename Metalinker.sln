@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalinker", "Metalinker\Metalinker.csproj", "{ED990317-51BA-4B0F-85B0-A74B604904F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalinker", "public\Metalinker\Metalinker.csproj", "{ED990317-51BA-4B0F-85B0-A74B604904F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalinker.Tests", "Metalinker.Tests\Metalinker.Tests.csproj", "{D532EF5D-097F-4193-ADEE-E6990C9B3425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalinker.Tests", "private\Metalinker.Tests\Metalinker.Tests.csproj", "{D532EF5D-097F-4193-ADEE-E6990C9B3425}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{BEFE2FE1-8B1B-473D-A9A8-03D105E15F0A}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{BEFE2F
 		CHANGES.TITLE = CHANGES.TITLE
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Public", "Public", "{D0C3AB38-B69A-40E4-B6A7-8B0AE4D8DC82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Private", "Private", "{6309B122-0AD8-42A8-BB4B-F409C47B94B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED990317-51BA-4B0F-85B0-A74B604904F3} = {D0C3AB38-B69A-40E4-B6A7-8B0AE4D8DC82}
+		{D532EF5D-097F-4193-ADEE-E6990C9B3425} = {6309B122-0AD8-42A8-BB4B-F409C47B94B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19FE220C-BDE4-4AAC-810A-70CFAE46E56B}

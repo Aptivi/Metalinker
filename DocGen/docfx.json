@@ -3,7 +3,7 @@
         {
             "src": [
                 {
-                    "files": [ "Metalinker/**.csproj" ],
+                    "files": [ "public/**/*.csproj" ],
                     "src": ".."
                 }
             ],
