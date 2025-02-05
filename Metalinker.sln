@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Public", "Public", "{D0C3AB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Private", "Private", "{6309B122-0AD8-42A8-BB4B-F409C47B94B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTargets", "private\BuildTargets\BuildTargets.csproj", "{BBDD20EE-C5E4-4056-B635-F9ECF8CA89A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{D532EF5D-097F-4193-ADEE-E6990C9B3425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D532EF5D-097F-4193-ADEE-E6990C9B3425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D532EF5D-097F-4193-ADEE-E6990C9B3425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDD20EE-C5E4-4056-B635-F9ECF8CA89A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDD20EE-C5E4-4056-B635-F9ECF8CA89A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDD20EE-C5E4-4056-B635-F9ECF8CA89A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDD20EE-C5E4-4056-B635-F9ECF8CA89A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ED990317-51BA-4B0F-85B0-A74B604904F3} = {D0C3AB38-B69A-40E4-B6A7-8B0AE4D8DC82}
 		{D532EF5D-097F-4193-ADEE-E6990C9B3425} = {6309B122-0AD8-42A8-BB4B-F409C47B94B9}
+		{BBDD20EE-C5E4-4056-B635-F9ECF8CA89A4} = {6309B122-0AD8-42A8-BB4B-F409C47B94B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19FE220C-BDE4-4AAC-810A-70CFAE46E56B}
