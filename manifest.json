@@ -21,7 +21,11 @@
           "relative_path": "api/Metalinker.Instances.Metalink.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.Instances.Metalink",
+      "Summary": "<p sourcefile=\"api/Metalinker.Instances.Metalink.yml\" sourcestartlinenumber=\"1\">Metalink instance</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/Metalinker.Instances.MetalinkFile.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.Instances.MetalinkFile",
+      "Summary": "<p sourcefile=\"api/Metalinker.Instances.MetalinkFile.yml\" sourcestartlinenumber=\"1\">Metalink file instance</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/Metalinker.Instances.MetalinkHash.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.Instances.MetalinkHash",
+      "Summary": "<p sourcefile=\"api/Metalinker.Instances.MetalinkHash.yml\" sourcestartlinenumber=\"1\">Metalink file hash instance</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/Metalinker.Instances.MetalinkPieceInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.Instances.MetalinkPieceInfo",
+      "Summary": "<p sourcefile=\"api/Metalinker.Instances.MetalinkPieceInfo.yml\" sourcestartlinenumber=\"1\">Metalink file instance</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/Metalinker.Instances.MetalinkResource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.Instances.MetalinkResource",
+      "Summary": "<p sourcefile=\"api/Metalinker.Instances.MetalinkResource.yml\" sourcestartlinenumber=\"1\">Metalink file instance</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -71,7 +91,11 @@
           "relative_path": "api/Metalinker.Instances.MetalinkSignature.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.Instances.MetalinkSignature",
+      "Summary": "<p sourcefile=\"api/Metalinker.Instances.MetalinkSignature.yml\" sourcestartlinenumber=\"1\">Metalink file signature instance</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -81,7 +105,11 @@
           "relative_path": "api/Metalinker.Instances.MetalinkVersion.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.Instances.MetalinkVersion",
+      "Summary": "<p sourcefile=\"api/Metalinker.Instances.MetalinkVersion.yml\" sourcestartlinenumber=\"1\">Metalink version enumeration</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -91,7 +119,11 @@
           "relative_path": "api/Metalinker.Instances.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.Instances",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -101,7 +133,11 @@
           "relative_path": "api/Metalinker.MetalinkParser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker.MetalinkParser",
+      "Summary": "<p sourcefile=\"api/Metalinker.MetalinkParser.yml\" sourcestartlinenumber=\"1\">Metalink 3.0 and 4.0 parsing tools</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -111,7 +147,11 @@
           "relative_path": "api/Metalinker.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Metalinker",
+      "Summary": null
     },
     {
       "type": "Toc",
