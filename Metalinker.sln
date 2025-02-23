@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTargets", "private\BuildTargets\BuildTargets.csproj", "{BBDD20EE-C5E4-4056-B635-F9ECF8CA89A4}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalinker", "public\Metalinker\Metalinker.csproj", "{ED990317-51BA-4B0F-85B0-A74B604904F3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metalinker.Tests", "private\Metalinker.Tests\Metalinker.Tests.csproj", "{D532EF5D-097F-4193-ADEE-E6990C9B3425}"
@@ -17,8 +19,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Public", "Public", "{D0C3AB38-B69A-40E4-B6A7-8B0AE4D8DC82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Private", "Private", "{6309B122-0AD8-42A8-BB4B-F409C47B94B9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildTargets", "private\BuildTargets\BuildTargets.csproj", "{BBDD20EE-C5E4-4056-B635-F9ECF8CA89A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
