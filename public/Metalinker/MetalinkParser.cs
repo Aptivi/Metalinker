@@ -41,12 +41,12 @@ namespace Metalinker
         {
             // Sanity checks
             if (!File.Exists(file))
-                throw new FileNotFoundException($"Metalink file {file} doesn't exist.");
+                throw new FileNotFoundException(string.Format("Metalink file {0} doesn't exist.", file));
             if (!Path.HasExtension(file))
-                throw new ArgumentException($"Metalink file {file} must have an extension of either .meta4 or .metalink.");
+                throw new ArgumentException(string.Format("Metalink file {0} must have an extension of either .meta4 or .metalink.", file));
             string ext = Path.GetExtension(file);
             if (ext != ".meta4" && ext != ".metalink")
-                throw new ArgumentException($"Metalink file extension {ext} is invalid. It must have an extension of either .meta4 or .metalink.");
+                throw new ArgumentException(string.Format("Metalink file extension {0} is invalid. It must have an extension of either .meta4 or .metalink.", ext));
 
             // Load the document using the file path
             var document = new XmlDocument();
