@@ -1,0 +1,62 @@
+{
+  "lang": "ltn",
+  "name": "Latin",
+  "cultures": [
+    "la",
+    "la-VA"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "Nullae partes."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "Verificatio non exstat."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "Nullae opes."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Fasciculus Metalink {0} non exstat."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Fasciculus Metalink {0} extensionem vel .meta4 vel .metalink habere debet."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Extensio fasciculi Metalink {0} invalida est. Extensionem vel .meta4 vel .metalink habere debet."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Fluxus Metalink nullus est."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Metalink non praebetur."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Documentum Metalink non praebetur."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "Documentum Metalink non validum."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "Documentum Metalink 3.0 non validum."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "Documentum Metalink 4.0 non validum."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Versionem Metalink determinare non potest."
+    }
+  ]
+}

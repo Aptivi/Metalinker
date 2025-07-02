@@ -1,0 +1,65 @@
+{
+  "lang": "ita",
+  "name": "Italian",
+  "cultures": [
+    "it",
+    "it-CH",
+    "it-IT",
+    "it-SM",
+    "it-VA"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "Nessun pezzo."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "Verifica inesistente."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "Nessuna risorsa."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Il file Metalink {0} non esiste."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Il file Metalink {0} deve avere un'estensione .meta4 o .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "L'estensione del file Metalink {0} non è valida. Deve avere un'estensione .meta4 o .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Il flusso Metalink è nullo."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Metalink non fornito."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Il documento Metalink non è fornito."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "Non è un documento Metalink valido."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "Non è un documento Metalink 3.0 valido."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "Non è un documento Metalink 4.0 valido."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Impossibile determinare la versione di Metalink"
+    }
+  ]
+}

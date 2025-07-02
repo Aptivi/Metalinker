@@ -1,0 +1,70 @@
+{
+  "lang": "chi-T",
+  "name": "Chinese (Simplified)",
+  "cultures": [
+    "zh",
+    "zh-CN",
+    "zh-HK",
+    "zh-MO",
+    "zh-SG",
+    "zh-Hans",
+    "zh-Hans-CN",
+    "zh-Hans-HK",
+    "zh-Hans-MO",
+    "zh-Hans-SG"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "没有片段。"
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "验证不存在。"
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "没有资源。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Metalink 文件 {0} 不存在。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Metalink 文件 {0} 的扩展名必须是 .meta4 或 .metalink。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Metalink 文件扩展名 {0} 无效。它必须具有 .meta4 或 .metalink 的扩展名。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Metalink 流为空。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "未提供 Metalink。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "未提供 Metalink 文档。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "不是有效的 Metalink 文档。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "不是有效的 Metalink 3.0 文档。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "不是有效的 Metalink 4.0 文档。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "无法确定 Metalink 版本"
+    }
+  ]
+}

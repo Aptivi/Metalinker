@@ -1,0 +1,63 @@
+{
+  "lang": "grk",
+  "name": "Greek",
+  "cultures": [
+    "el",
+    "el-CY",
+    "el-GR"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "Δεν υπάρχουν κομμάτια."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "Δεν υπάρχει επαλήθευση."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "Δεν υπάρχουν πόροι."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Το αρχείο Metalink {0} δεν υπάρχει."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Το αρχείο Metalink {0} πρέπει να έχει επέκταση .meta4 ή .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Η επέκταση αρχείου Metalink {0} δεν είναι έγκυρη. Πρέπει να έχει επέκταση .meta4 ή .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Η ροή Metalink είναι μηδενική."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Δεν παρέχεται Metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Δεν παρέχεται έγγραφο Metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "Δεν είναι έγκυρο έγγραφο Metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "Δεν είναι έγκυρο έγγραφο Metalink 3.0."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "Δεν είναι έγκυρο έγγραφο Metalink 4.0."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Δεν είναι δυνατός ο προσδιορισμός της έκδοσης Metalink"
+    }
+  ]
+}

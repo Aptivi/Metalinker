@@ -1,0 +1,62 @@
+{
+  "lang": "ind-T",
+  "name": "Hindi",
+  "cultures": [
+    "hi",
+    "hi-IN"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "कोई टुकड़ा नहीं।"
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "सत्यापन मौजूद नहीं है।"
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "कोई संसाधन नहीं।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "मेटालिंक फ़ाइल {0} मौजूद नहीं है।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "मेटालिंक फ़ाइल {0} में .meta4 या .metalink का एक्सटेंशन होना चाहिए।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "मेटालिंक फ़ाइल एक्सटेंशन {0} अमान्य है। इसमें .meta4 या .metalink का एक्सटेंशन होना चाहिए।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "मेटालिंक स्ट्रीम शून्य है।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "मेटालिंक प्रदान नहीं किया गया है।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "मेटालिंक दस्तावेज़ प्रदान नहीं किया गया है।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "वैध मेटालिंक दस्तावेज़ नहीं है।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "वैध मेटालिंक 3.0 दस्तावेज़ नहीं है।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "वैध मेटालिंक 4.0 दस्तावेज़ नहीं है।"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "मेटालिंक संस्करण निर्धारित नहीं किया जा सकता"
+    }
+  ]
+}

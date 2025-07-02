@@ -1,0 +1,62 @@
+{
+  "lang": "jpn",
+  "name": "Japanese",
+  "cultures": [
+    "ja",
+    "ja-JP"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "ピースがありません。"
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "検証が存在しません。"
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "リソースがありません。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Metalink ファイル {0} が存在しません。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Metalink ファイル {0} の拡張子は .meta4 または .metalink のいずれかである必要があります。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Metalink ファイル拡張子 {0} が無効です。拡張子は .meta4 または .metalink のいずれかである必要があります。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Metalink ストリームが null です。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Metalink が指定されていません。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Metalink ドキュメントが指定されていません。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "有効な Metalink ドキュメントではありません。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "有効な Metalink 3.0 ドキュメントではありません。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "有効な Metalink 4.0 ドキュメントではありません。"
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Metalink のバージョンを判別できません。"
+    }
+  ]
+}

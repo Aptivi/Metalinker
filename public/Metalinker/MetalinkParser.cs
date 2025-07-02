@@ -1,4 +1,4 @@
-﻿//
+//
 // Metalinker  Copyright (C) 2024  Aptivi
 //
 // This file is part of Metalinker
@@ -18,6 +18,7 @@
 //
 
 using Metalinker.Instances;
+using Metalinker.Languages;
 using Metalinker.Parsers;
 using System;
 using System.IO;
@@ -41,12 +42,12 @@ namespace Metalinker
         {
             // Sanity checks
             if (!File.Exists(file))
-                throw new FileNotFoundException(string.Format("Metalink file {0} doesn't exist.", file));
+                throw new FileNotFoundException(string.Format(LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_FILENOTFOUND"), file));
             if (!Path.HasExtension(file))
-                throw new ArgumentException(string.Format("Metalink file {0} must have an extension of either .meta4 or .metalink.", file));
+                throw new ArgumentException(string.Format(LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_NEEDSEXT"), file));
             string ext = Path.GetExtension(file);
             if (ext != ".meta4" && ext != ".metalink")
-                throw new ArgumentException(string.Format("Metalink file extension {0} is invalid. It must have an extension of either .meta4 or .metalink.", ext));
+                throw new ArgumentException(string.Format(LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_EXTMISMATCH"), ext));
 
             // Load the document using the file path
             var document = new XmlDocument();
@@ -64,7 +65,7 @@ namespace Metalinker
         {
             // Sanity checks
             if (stream is null)
-                throw new ArgumentNullException(nameof(stream), "Metalink stream is null.");
+                throw new ArgumentNullException(nameof(stream), LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM"));
 
             // Open the file stream
             var document = new XmlDocument();
@@ -82,7 +83,7 @@ namespace Metalinker
         {
             // Sanity checks
             if (string.IsNullOrEmpty(metalink))
-                throw new ArgumentNullException(nameof(metalink), "Metalink is not provided.");
+                throw new ArgumentNullException(nameof(metalink), LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_NEEDSMETALINK"));
 
             // Load the XML
             var document = new XmlDocument();
@@ -102,18 +103,18 @@ namespace Metalinker
         {
             // Sanity checks
             if (metalinkDocument is null)
-                throw new ArgumentNullException(nameof(metalinkDocument), "Metalink document is not provided.");
+                throw new ArgumentNullException(nameof(metalinkDocument), LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT"));
             var metalinkElement = metalinkDocument["metalink"] ??
-                throw new ArgumentException("Not a valid Metalink document.");
+                throw new ArgumentException(LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT"));
 
             // Check the version and outsource the document to the appropriate parsers
             Metalink? metalink = null;
             bool maybe3 = metalinkElement.Attributes.Count > 1;
             bool maybe4 = metalinkElement.Attributes.Count == 1;
             if (maybe3 && metalinkElement.Attributes["version"].InnerText != "3.0")
-                throw new ArgumentException("Not a valid Metalink 3.0 document.");
+                throw new ArgumentException(LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3"));
             else if (maybe4 && !metalinkElement.Attributes["xmlns"].InnerText.Contains("metalink"))
-                throw new ArgumentException("Not a valid Metalink 4.0 document.");
+                throw new ArgumentException(LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4"));
             else
             {
                 // They are valid, but we need to figure out what we actually have as the version to avoid
@@ -124,7 +125,7 @@ namespace Metalinker
                 else if (maybe4 && metalinkElement.Attributes["xmlns"].InnerText.Contains("metalink"))
                     version = MetalinkVersion.Four;
                 else
-                    throw new InvalidDataException("Can't determine Metalink version");
+                    throw new InvalidDataException(LanguageTools.GetLocalized("METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION"));
 
                 // Now that we know the real version, we need to outsource the document to their appropriate
                 // documents

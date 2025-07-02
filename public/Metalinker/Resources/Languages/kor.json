@@ -1,0 +1,63 @@
+{
+  "lang": "kor",
+  "name": "Korean",
+  "cultures": [
+    "ko",
+    "ko-KP",
+    "ko-KR"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "jogag-i eobs-seubnida."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "hwag-in-i jonjaehaji anhseubnida."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "lisoseuga eobs-seubnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Metalink pail {0}i(ga) jonjaehaji anhseubnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Metalink pail {0}ui hwagjangjaneun .meta4 ttoneun .metalinkyeoya habnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Metalink pail hwagjangja {0}i(ga) jalmosdoeeossseubnida. Metalink pail hwagjangjaneun .meta4 ttoneun .metalinkyeoya habnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Metalink seuteulim-i nullibnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Metalinkga jegongdoeji anh-assseubnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Metalink munseoga jegongdoeji anh-assseubnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "yuhyohan Metalink munseoga anibnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "yuhyohan Metalink 3.0 munseoga anibnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "yuhyohan Metalink 4.0 munseoga anibnida."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Metalink beojeon-eul hwag-inhal su eobs-seubnida."
+    }
+  ]
+}

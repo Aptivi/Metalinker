@@ -1,0 +1,62 @@
+{
+  "lang": "ind",
+  "name": "Hindi",
+  "cultures": [
+    "hi-Latn",
+    "hi-Latn-IN"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "koee tukada nahin."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "satyaapan maujood nahin hai."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "koee sansaadhan nahin."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "metaalink fail {0} maujood nahin hai."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "metaalink fail {0} mein .maita4 ya .maitalink ka eksatenshan hona chaahie."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "metaalink fail eksatenshan {0} amaany hai. isamen .maita4 ya .maitalink ka eksatenshan hona chaahie."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "metaalink streem shoony hai."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "metaalink pradaan nahin kiya gaya hai."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "metaalink dastaavez pradaan nahin kiya gaya hai."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "vaidh metaalink dastaavez nahin hai."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "vaidh metaalink 3.0 dastaavez nahin hai."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "vaidh metaalink 4.0 dastaavez nahin hai."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "metaalink sanskaran nirdhaarit nahin kiya ja sakata"
+    }
+  ]
+}

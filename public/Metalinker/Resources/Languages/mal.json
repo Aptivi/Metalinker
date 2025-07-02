@@ -1,0 +1,65 @@
+{
+  "lang": "mal",
+  "name": "Malay",
+  "cultures": [
+    "ms",
+    "ms-BN",
+    "ms-ID",
+    "ms-MY",
+    "ms-SG"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "Tiada kepingan."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "Pengesahan tidak wujud."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "Tiada sumber."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Fail metalink {0} tidak wujud."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Fail metalink {0} mesti mempunyai sambungan sama ada .meta4 atau .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Sambungan fail metalink {0} tidak sah. Ia mesti mempunyai sambungan sama ada .meta4 atau .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Strim Metalink adalah batal."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Metalink tidak disediakan."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Dokumen Metalink tidak disediakan."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "Bukan dokumen Metalink yang sah."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "Bukan dokumen Metalink 3.0 yang sah."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "Bukan dokumen Metalink 4.0 yang sah."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Tidak dapat menentukan versi Metalink"
+    }
+  ]
+}

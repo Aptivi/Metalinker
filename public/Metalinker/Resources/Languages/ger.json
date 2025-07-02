@@ -1,0 +1,71 @@
+{
+  "lang": "ger",
+  "name": "German",
+  "cultures": [
+    "de",
+    "de-AT",
+    "de-BE",
+    "de-CH",
+    "de-DE",
+    "de-IT",
+    "de-LI",
+    "de-LU",
+    "nds",
+    "nds-DE",
+    "nds-NL"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "Keine Teile."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "Verifizierung nicht vorhanden."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "Keine Ressourcen."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Metalink-Datei {0} existiert nicht."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Metalink-Datei {0} muss die Erweiterung .meta4 oder .metalink haben."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Metalink-Dateierweiterung {0} ist ungültig. Sie muss die Erweiterung .meta4 oder .metalink haben."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Metalink-Stream ist null."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Metalink wurde nicht bereitgestellt."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Metalink-Dokument wurde nicht bereitgestellt."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "Kein gültiges Metalink-Dokument."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "Kein gültiges Metalink 3.0-Dokument."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "Kein gültiges Metalink 4.0-Dokument."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Metalink-Version kann nicht ermittelt werden."
+    }
+  ]
+}

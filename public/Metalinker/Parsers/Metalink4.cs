@@ -1,4 +1,4 @@
-﻿//
+//
 // Metalinker  Copyright (C) 2024  Aptivi
 //
 // This file is part of Metalinker
@@ -18,6 +18,7 @@
 //
 
 using Metalinker.Instances;
+using Metalinker.Languages;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -89,7 +90,7 @@ namespace Metalinker.Parsers
 
                 // Get the piece information
                 var piecesElement = fileElement["pieces"] ??
-                    throw new InvalidDataException("No pieces.");
+                    throw new InvalidDataException(LanguageTools.GetLocalized("METALINKER_COMMON_EXCEPTION_NOPIECES"));
                 var pieceInfo = new MetalinkPieceInfo
                 {
                     Length = long.Parse(piecesElement.Attributes["length"]?.InnerText),

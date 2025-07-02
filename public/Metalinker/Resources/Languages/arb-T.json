@@ -1,0 +1,88 @@
+{
+  "lang": "arb-T",
+  "name": "Arabic",
+  "cultures": [
+    "ar",
+    "ar-001",
+    "ar-AE",
+    "ar-BH",
+    "ar-DJ",
+    "ar-DZ",
+    "ar-EG",
+    "ar-ER",
+    "ar-IL",
+    "ar-IQ",
+    "ar-JO",
+    "ar-KM",
+    "ar-KW",
+    "ar-LB",
+    "ar-LY",
+    "ar-MA",
+    "ar-MR",
+    "ar-OM",
+    "ar-PS",
+    "ar-QA",
+    "ar-SA",
+    "ar-SD",
+    "ar-SO",
+    "ar-SS",
+    "ar-SY",
+    "ar-TD",
+    "ar-TN",
+    "ar-YE"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "لا توجد أجزاء."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "التحقق غير موجود."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "لا توجد موارد."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "ملف Metalink {0} غير موجود."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "يجب أن يكون امتداد ملف Metalink {0} إما .meta4 أو .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "امتداد ملف Metalink {0} غير صالح. يجب أن يكون امتداده إما .meta4 أو .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "دفق Metalink فارغ."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "لم يتم توفير Metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "لم يتم توفير مستند Metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "ليس مستند Metalink صالحًا."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "ليس مستند Metalink 3.0 صالحًا."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "ليس مستند Metalink 4.0 صالحًا."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "لا يمكن تحديد إصدار Metalink"
+    }
+  ]
+}

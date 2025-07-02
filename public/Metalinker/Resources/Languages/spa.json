@@ -1,0 +1,87 @@
+{
+  "lang": "spa",
+  "name": "Spanish",
+  "cultures": [
+    "es",
+    "es-419",
+    "es-AR",
+    "es-BO",
+    "es-BR",
+    "es-BZ",
+    "es-CL",
+    "es-CO",
+    "es-CR",
+    "es-CU",
+    "es-DO",
+    "es-EC",
+    "es-ES",
+    "es-GQ",
+    "es-GT",
+    "es-HN",
+    "es-MX",
+    "es-NI",
+    "es-PA",
+    "es-PE",
+    "es-PH",
+    "es-PR",
+    "es-PY",
+    "es-SV",
+    "es-US",
+    "es-UY",
+    "es-VE"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "No hay piezas."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "No existe verificación."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "No hay recursos."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "El archivo Metalink {0} no existe."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "El archivo Metalink {0} debe tener la extensión .meta4 o .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "La extensión del archivo Metalink {0} no es válida. Debe tener la extensión .meta4 o .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "El flujo de Metalink es nulo."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "No se proporciona Metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "No se proporciona el documento Metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "No es un documento válido de Metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "No es un documento válido de Metalink 3.0."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "No es un documento válido de Metalink 4.0."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "No se puede determinar la versión de Metalink."
+    }
+  ]
+}

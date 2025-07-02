@@ -1,0 +1,108 @@
+{
+  "lang": "fre",
+  "name": "French",
+  "cultures": [
+    "fr",
+    "fr-029",
+    "fr-BE",
+    "fr-BF",
+    "fr-BI",
+    "fr-BJ",
+    "fr-BL",
+    "fr-CA",
+    "fr-CD",
+    "fr-CF",
+    "fr-CG",
+    "fr-CH",
+    "fr-CI",
+    "fr-CM",
+    "fr-DJ",
+    "fr-DZ",
+    "fr-FR",
+    "fr-GA",
+    "fr-GF",
+    "fr-GN",
+    "fr-GP",
+    "fr-GQ",
+    "fr-HT",
+    "fr-KM",
+    "fr-LU",
+    "fr-MA",
+    "fr-MC",
+    "fr-MF",
+    "fr-MG",
+    "fr-ML",
+    "fr-MQ",
+    "fr-MR",
+    "fr-MU",
+    "fr-NC",
+    "fr-NE",
+    "fr-PF",
+    "fr-PM",
+    "fr-RE",
+    "fr-RW",
+    "fr-SC",
+    "fr-SN",
+    "fr-SY",
+    "fr-TD",
+    "fr-TG",
+    "fr-TN",
+    "fr-VU",
+    "fr-WF",
+    "fr-YT"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "Aucune pièce."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "Vérification inexistante."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "Aucune ressource."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Le fichier Metalink {0} n'existe pas."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Le fichier Metalink {0} doit avoir une extension .meta4 ou .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "L'extension de fichier Metalink {0} n'est pas valide. Elle doit avoir une extension .meta4 ou .metalink."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Le flux Metalink est nul."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Metalink n'est pas fourni."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Le document Metalink n'est pas fourni."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "Document Metalink non valide."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "Document Metalink 3.0 non valide."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "Document Metalink 4.0 non valide."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Impossible de déterminer la version de Metalink."
+    }
+  ]
+}

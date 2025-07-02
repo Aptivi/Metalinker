@@ -1,0 +1,63 @@
+{
+  "lang": "iri",
+  "name": "Irish",
+  "cultures": [
+    "ga",
+    "ga-GB",
+    "ga-IE"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "Gan píosaí."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "Níl fíorú ann."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "Gan acmhainní."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Níl comhad Metalink {0} ann."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Ní mór síneadh .meta4 nó .metalink a bheith ag comhad Metalink {0}."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Tá síneadh comhaid Metalink {0} neamhbhailí. Ní mór síneadh .meta4 nó .metalink a bheith air."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Tá sruth Metalink neamhní."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Níl Metalink curtha ar fáil."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Níl doiciméad Metalink curtha ar fáil."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "Ní doiciméad Metalink bailí é."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "Ní doiciméad Metalink 3.0 bailí é."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "Ní doiciméad Metalink 4.0 bailí é."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Ní féidir leagan Metalink a chinneadh"
+    }
+  ]
+}

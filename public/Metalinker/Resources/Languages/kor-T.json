@@ -1,0 +1,63 @@
+{
+  "lang": "kor-T",
+  "name": "Korean",
+  "cultures": [
+    "ko",
+    "ko-KP",
+    "ko-KR"
+  ],
+  "locs": [
+    {
+      "loc": "METALINKER_COMMON_EXCEPTION_NOPIECES",
+      "text": "조각이 없습니다."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NOVERIFY",
+      "text": "확인이 존재하지 않습니다."
+    },
+    {
+      "loc": "METALINKER_METALINK3_EXCEPTION_NORESOURCES",
+      "text": "리소스가 없습니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_FILENOTFOUND",
+      "text": "Metalink 파일 {0}이(가) 존재하지 않습니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSEXT",
+      "text": "Metalink 파일 {0}의 확장자는 .meta4 또는 .metalink여야 합니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_EXTMISMATCH",
+      "text": "Metalink 파일 확장자 {0}이(가) 잘못되었습니다. Metalink 파일 확장자는 .meta4 또는 .metalink여야 합니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKSTREAM",
+      "text": "Metalink 스트림이 null입니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINK",
+      "text": "Metalink가 제공되지 않았습니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_NEEDSMETALINKDOCUMENT",
+      "text": "Metalink 문서가 제공되지 않았습니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT",
+      "text": "유효한 Metalink 문서가 아닙니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V3",
+      "text": "유효한 Metalink 3.0 문서가 아닙니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKDOCUMENT_V4",
+      "text": "유효한 Metalink 4.0 문서가 아닙니다."
+    },
+    {
+      "loc": "METALINKER_PARSER_EXCEPTION_INVALIDMETALINKVERSION",
+      "text": "Metalink 버전을 확인할 수 없습니다."
+    }
+  ]
+}
