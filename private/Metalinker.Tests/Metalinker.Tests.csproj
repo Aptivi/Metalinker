@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Shouldly" Version="4.2.1" />
 
-    <PackageReference Remove="Microsoft.SourceLink.GitHub" />
+    <PackageReference Remove="Microsoft.SourceLink.GitLab" />
   </ItemGroup>
 
   <ItemGroup>
