@@ -7,8 +7,8 @@
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Description>A C# library that parses Metalink version 3.0 and 4.0 files for download manager applications written in .NET</Description>
-    <PackageProjectUrl>https://gitlab.com/aptivi/main/Metalinker</PackageProjectUrl>
-    <RepositoryUrl>https://gitlab.com/aptivi/main/Metalinker</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Aptivi/Metalinker</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Aptivi/Metalinker</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>download;manager;parser;metalink3;metalink4;metalink;free;csharp;visualbasic;tools;library</PackageTags>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>

@@ -35,7 +35,7 @@
 
 <!----------------------------------------------------------------------------->
 
-[Releases]: https://gitlab.com/aptivi/main/Metalinker/-/releases
+[Releases]: https://github.com/Aptivi/Metalinker/releases
 [NuGet]: https://www.nuget.org/packages/Metalinker/
 
 [Manual]: https://aptivi.gitbook.io/metalinker-manual/
