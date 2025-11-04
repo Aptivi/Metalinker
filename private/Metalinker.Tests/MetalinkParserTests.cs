@@ -21,6 +21,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 using System.IO;
 
+[assembly: Parallelize]
+
 namespace Metalinker.Tests
 {
     [TestClass]
