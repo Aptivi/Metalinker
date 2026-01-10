@@ -17,7 +17,7 @@ build() {
 
     # Now, build.
     echo Building with configuration $releaseconf...
-    "$dotnetpath" build "$ROOTDIR/Metalinker.sln" -p:Configuration=$releaseconf ${@:2}
+    "$dotnetpath" build "$ROOTDIR/Metalinker.slnx" -p:Configuration=$releaseconf ${@:2}
     checkvendorerror $?
 }
 
